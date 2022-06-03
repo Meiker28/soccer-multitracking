@@ -40,6 +40,7 @@ These four algorithms found within Opencv were compared:
 - KCF
 - MedianFlow
 - Mosse
+
 for more information see: https://broutonlab.com/blog/opencv-object-tracking
 
 ## Experiment
