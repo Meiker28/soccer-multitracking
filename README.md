@@ -8,7 +8,8 @@ Football is the most followed sports across the world, in recent years there has
 
 ```.
 ├─────── configs
-│              └──────── logging_config.yaml         <--- Project Log Settings     
+│              └──────── logging_config.yaml         <--- Project Log Settings  
+               └──────── initial_config.yaml         <--- Project initial Settings 
 ├─────── data
 │            ├────────initial_conditions2.json       <--- Inputs for system, video and json files
 │            ├────────initial_conditions.json
@@ -25,9 +26,8 @@ Football is the most followed sports across the world, in recent years there has
 │           ├──────── class_tracker.py               <--- 
 │           ├──────── multi_object_tracker.py        <---
 └─────── utils
-            ├────────colors.py                       <---
-            ├────────config.py                       <--- Functions for log and 
-            └────────utils.py                        <--- useful functions
+            ├────────config.py                       <--- Functions for read log and configs
+            └────────utils.py                        <--- Useful functions
 
 ```
 
@@ -88,12 +88,13 @@ Now we are going to implement the CSRT algorithm with docker for use in any envi
 
 ## Usage
 
-After cloning the repo just build the docker image
+### Step1
 
 ```
 docker-compose build tracker
 ```
 
+### Step2
 
 ```
 docker-compose run tracker \
