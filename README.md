@@ -77,7 +77,7 @@ Algorithm: CSRT
 
 ![output2_CSRT (1)(1)](https://user-images.githubusercontent.com/33854300/171512376-eafe2c99-b093-404d-8cfa-2a7a8232543d.gif)
 
-Algorithm: KFC
+Algorithm: KCF
 
 ![output2_KCF (1)](https://user-images.githubusercontent.com/33854300/171512384-15dbafe2-6f4b-439d-8002-72fefea5501c.gif)
 
