@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  tracker:
+   build: ./
+   command: python /app/main.py 
+   volumes:
+     - ./:/app
+      

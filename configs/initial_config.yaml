@@ -1,0 +1,15 @@
+fontScale: 0.75
+thickness: 2 
+
+color_box: [255,0,0]
+
+color_tracker: [50,170,50]
+org_tracker: [100,20]
+
+color_failure: [0,0,255]
+org_failure: [100,80]
+
+color_fps: [50,170,50]
+org_fps: [100,50]
+
+
