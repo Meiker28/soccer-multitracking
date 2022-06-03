@@ -1,7 +1,5 @@
 # soccer-multitracking
 
-# soccer-player-tracking
-
 ## Overview
 
 Football is the most followed sports across the world, in recent years there has been as increasing interest in sport analytics side of this sport. In this project my goal is to develop a system using computer vision techniques that allows tracking of specific players in a video.
