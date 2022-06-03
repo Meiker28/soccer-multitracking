@@ -97,20 +97,11 @@ docker-compose build tracker
 
 ```
 docker-compose run tracker \
-        -input_path <input video filepath> \
-        -input_bbox_path <input bbox json filepath> \
-        -output_path <output video filepath> \
+        -input_path      /app/data/input.mkv\
+        -input_bbox_path /app/data/initial_conditions.json\
+        -output_path     /app/output_tracked.mp4 
 ```
 
 
 
 
-
-For example 
-
-```
-docker run -v "$PWD":/app tracker:latest \
-        -input_path /app/data/input.mkv \
-        -input_bbox_path /app/data/initial_conditions.json \
-        -output_path /app/output_tracked.mp4
-```
