@@ -9,7 +9,7 @@ Football is the most followed sports across the world, in recent years there has
 ```.
 ├─────── configs
 │              └──────── logging_config.yaml         <--- Project Log Settings  
-               └──────── initial_config.yaml         <--- Project initial Settings 
+│              └──────── initial_config.yaml         <--- Project initial Settings 
 ├─────── data
 │            ├────────initial_conditions2.json       <--- Inputs for system, video and json files
 │            ├────────initial_conditions.json
