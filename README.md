@@ -1,5 +1,29 @@
 # soccer-multitracking
 
+## Usage
+
+### Step 1
+
+```
+git clone https://github.com/Meiker28/soccer-multitracking.git
+cd soccer-multitracking
+```
+
+### Step 2
+
+```
+docker-compose build tracker
+```
+
+### Step 3
+
+```
+docker-compose run tracker \
+        -input_path      /app/data/input.mkv\
+        -input_bbox_path /app/data/initial_conditions.json\
+        -output_path     /app/output_tracked.mp4 
+```
+
 ## Overview
 
 Football is the most followed sports across the world, in recent years there has been as increasing interest in sport analytics side of this sport. In this project my goal is to develop a system using computer vision techniques that allows tracking of specific players in a video.
@@ -85,29 +109,7 @@ In this video we have to track two players from the same team and as a result th
 
 Now we are going to implement the CSRT algorithm with docker for use in any environment.
 
-## Usage
 
-### Step 1
-
-```
-git clone https://github.com/Meiker28/soccer-multitracking.git
-cd soccer-multitracking
-```
-
-### Step 2
-
-```
-docker-compose build tracker
-```
-
-### Step 3
-
-```
-docker-compose run tracker \
-        -input_path      /app/data/input.mkv\
-        -input_bbox_path /app/data/initial_conditions.json\
-        -output_path     /app/output_tracked.mp4 
-```
 
 
 
