@@ -87,13 +87,20 @@ Now we are going to implement the CSRT algorithm with docker for use in any envi
 
 ## Usage
 
-### Step1
+### Step 1
+
+```
+git clone https://github.com/Meiker28/soccer-multitracking.git
+cd soccer-multitracking
+```
+
+### Step 2
 
 ```
 docker-compose build tracker
 ```
 
-### Step2
+### Step 3
 
 ```
 docker-compose run tracker \
