@@ -111,6 +111,12 @@ docker-compose run tracker \
         -output_path     /app/output_tracked.mp4 
 ```
 
+Where:
+
+- input_path:  Path of video to be tracked, which must be .mp4 or .mkv format.
+- input_bbox_path: Path of json file that contains the bounding boxes of each object in tuple format (x, y, width, height).
+- output_path: Path of video tracked.
+
 
 
 
