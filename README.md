@@ -1,28 +1,6 @@
 # soccer-multitracking
 
-## Usage
 
-### Step 1
-
-```
-git clone https://github.com/Meiker28/soccer-multitracking.git
-cd soccer-multitracking
-```
-
-### Step 2
-
-```
-docker-compose build tracker
-```
-
-### Step 3
-
-```
-docker-compose run tracker \
-        -input_path      /app/data/input.mkv\
-        -input_bbox_path /app/data/initial_conditions.json\
-        -output_path     /app/output_tracked.mp4 
-```
 
 ## Overview
 
@@ -109,7 +87,29 @@ In this video we have to track two players from the same team and as a result th
 
 Now we are going to implement the CSRT algorithm with docker for use in any environment.
 
+## Usage
 
+### Step 1
+
+```
+git clone https://github.com/Meiker28/soccer-multitracking.git
+cd soccer-multitracking
+```
+
+### Step 2
+
+```
+docker-compose build tracker
+```
+
+### Step 3
+
+```
+docker-compose run tracker \
+        -input_path      /app/data/input.mkv\
+        -input_bbox_path /app/data/initial_conditions.json\
+        -output_path     /app/output_tracked.mp4 
+```
 
 
 
