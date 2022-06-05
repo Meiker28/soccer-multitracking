@@ -105,9 +105,9 @@ docker-compose build tracker
 ### Step 3
 
 ```
-docker-compose run tracker \
-        -input_path      /app/data/input.mkv\
-        -input_bbox_path /app/data/initial_conditions.json\
+docker-compose run tracker  \
+        -input_path      /app/data/input.mkv  \
+        -input_bbox_path /app/data/initial_conditions.json  \
         -output_path     /app/output_tracked.mp4 
 ```
 
